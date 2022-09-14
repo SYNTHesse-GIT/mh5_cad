@@ -7,7 +7,7 @@ The 3D design of the robot is maintained in [onshape](https://cad.onshape.com/do
 ## Printing BOM
 
 | Item | Description | Final | Qty | Comments |
-|------|-------------|-----|----------|
+|------|-------------|-------|-----|----------|
 | [Foot-Sole](STL/Foot-Sole.stl) | Sole for the FSR feet                   | Yes | 2 | one for each foot
 | [Foot-Top](STL/Foot-Top.stl)   | Upper part of FSR feel                  | Yes | 2 | one for each foot
 | [Foot-Back](STL/Foot-Back.stl) | Back side of the FSR foot, uses magnets | Yes | 2 | one for each foot
