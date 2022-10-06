@@ -6,20 +6,20 @@ The 3D design of the robot is maintained in [onshape](https://cad.onshape.com/do
 
 ## Printing BOM
 
-| Item | Description | Qty | Comments |
-|------|-------------|-----|----------|
-| [Foot-Sole](STL/Foot-Sole.stl) | Sole for the FSR feet                   | 2 | one for each foot
-| [Foot-Top](STL/Foot-Top.stl)   | Upper part of FSR feel                  | 2 | one for each foot
-| [Foot-Back](STL/Foot-Back.stl) | Back side of the FSR foot, uses magnets | 2 | one for each foot
-| [Ankle](STL/Ankle.stl)         | Frame for ankle                         | 4 | 2 for each foot
-| [MH5-F02](STL/MH5-F02.stl)     | Stright U frame                         | 4 | 2 used in feet (1 each) and 2 used in arms (1 each)
-| [MH5-F03](STL/MH5-F03.stl)     | Bottom of servo frame                   | 6 | 3 for each arm
-| [MH5-F04](STL/MH5-F04.stl)     | Curved U frame                          | 4 | 2 used in hips and 2 in shoulders
-| [MH5-F05](STL/MH5-F05.stl)     | Thigh frame                             | 2 | one in each foot
-| [Hand-Left](STL/Hand-Left.stl) | Anatomic left hand                      | 1 |
-| [Hand-Right](STL/Hand-Right.stl) | Anatomic right hand                   | 1 |
-| [Chest](STL/Chest.stl)         | Chest main frame                        | 1 |
-| [Front](STL/Front.stl)         | Front chest cover                       | 1 |
-| [Neck](STL/Neck.stl)           | Neck                                    | 1 |
-| [Head-Back](STL/Head-Back.stl) | Back side of the head                   | 1 |
-| [Head-Front](STL/Head-Front.stl) | Front side of the head                | 1 |
+| Item | Description | Final | Qty | Comments |
+|------|-------------|-------|-----|----------|
+| [Foot-Sole](STL/Foot-Sole.stl) | Sole for the FSR feet                   | Yes | 2 | one for each foot
+| [Foot-Top](STL/Foot-Top.stl)   | Upper part of FSR feel                  | Yes | 2 | one for each foot
+| [Foot-Back](STL/Foot-Back.stl) | Back side of the FSR foot, uses magnets | Yes | 2 | one for each foot
+| [Ankle](STL/Ankle.stl)         | Frame for ankle                         | Yes | 4 | 2 for each foot
+| [MH5-F02](STL/MH5-F02.stl)     | Stright U frame                         | Yes | 4 | 2 used in feet (1 each) and 2 used in arms (1 each)
+| [MH5-F03](STL/MH5-F03.stl)     | Bottom of servo frame                   | Yes | 6 | 3 for each arm
+| [MH5-F04](STL/MH5-F04.stl)     | Curved U frame                          | Yes | 4 | 2 used in hips and 2 in shoulders
+| [MH5-F05](STL/MH5-F05.stl)     | Thigh frame                             | Yes | 2 | one in each foot
+| [Hand-Left](STL/Hand-Left.stl) | Anatomic left hand                      | Yes | 1 |
+| [Hand-Right](STL/Hand-Right.stl) | Anatomic right hand                   | Yes | 1 |
+| [Chest](STL/Chest.stl)         | Chest main frame                        | Yes | 1 |
+| [Front](STL/Front.stl)         | Front chest cover                       | Yes | 1 |
+| [Neck](STL/Neck.stl)           | Neck                                    | No | 1 |
+| [Head-Back](STL/Head-Back.stl) | Back side of the head                   | No | 1 |
+| [Head-Front](STL/Head-Front.stl) | Front side of the head                | No | 1 |
