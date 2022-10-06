@@ -1,8 +1,10 @@
 # mh5_cad - CAD files, including STLs for MH5 robot
 
-[![Version](https://img.shields.io/badge/Rev-E-blue)](https://img.shields.io/badge/master-0.2.0-blue)
+[![Version](https://img.shields.io/badge/Rev-F-blue)](https://img.shields.io/badge/master-0.2.0-blue)
 
 The 3D design of the robot is maintained in [onshape](https://cad.onshape.com/documents/1b88afa68bb97584375e284c/w/8d3aebf9e78687fc1b4a5d80/e/6f5b4ad05cdba68c2c42dd17).
+
+The parts bellow are for the Revision F model of the MH5 humanoid robot.
 
 ## Printing BOM
 
@@ -20,6 +22,7 @@ The 3D design of the robot is maintained in [onshape](https://cad.onshape.com/do
 | [Hand-Right](STL/Hand-Right.stl) | Anatomic right hand                   | Yes | 1 |
 | [Chest](STL/Chest.stl)         | Chest main frame                        | Yes | 1 |
 | [Front](STL/Front.stl)         | Front chest cover                       | Yes | 1 |
-| [Neck](STL/Neck.stl)           | Neck                                    | No | 1 |
-| [Head-Back](STL/Head-Back.stl) | Back side of the head                   | No | 1 |
-| [Head-Front](STL/Head-Front.stl) | Front side of the head                | No | 1 |
+| [Neck](STL/Neck.stl)           | Neck                                    | Yes | 1 |
+| [Head-Back](STL/Head-Back.stl) | Back side of the head                   | Yes | 1 |
+| [Head-Front](STL/Head-Front.stl) | Front side of the head                | Yes | 1 |
+| [Head-Camera-Cover](STL/Head-Camera-Cover.stl) | Cover for cameras.      | Yes | 2 | One for each mini camera
