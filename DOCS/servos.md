@@ -302,6 +302,6 @@ This section lists the IDs that need to be assigned to the servos for each joint
     </tbody>
 </table>
 
-The following picture shows the respective servos in the context of the robot:
+The following picture shows the IDs of servos in the context of the robot:
 
-![Robot Servos](imgs/)
+![Robot Servos](imgs/servo-ids.png)
