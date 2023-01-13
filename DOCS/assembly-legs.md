@@ -142,6 +142,8 @@ Finally use a cable clip on the side of the thigh to keep the cable for interfer
 
 ![Thigh cable](ass-leg10c)
 
+## Foot Review
+
 This concludes the construction of the legs. Once completed the two legs would look like this:
 
 ![Full legs)](ass-legs11)
