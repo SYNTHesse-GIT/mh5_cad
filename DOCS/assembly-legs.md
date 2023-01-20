@@ -12,13 +12,13 @@ Left and right legs are identical with the exception of the way the ankle frames
 
 Install 4 heat-serts into the [Foot Top](/STL/Foot-Top.stl) as described in the the [Heat-serts](assembly-heatserts.md) section.
 
-![Picture with 4 heatserts in the foot](ass-leg1)
+![Picture with 4 heatserts in the foot](imgs/ass-leg1.png)
 
 ### Step 2
 
 Install 3 heart-serts in each of the 2 [Ankle Brackets](/STL/Ankle.stl) that we use for each foot.
 
-![Picture with 3 headserts in the ankle](ass-leg2)
+![Picture with 3 headserts in the ankle](imgs/ass-leg2.png)
 
 ### Step 3
 
@@ -68,21 +68,25 @@ You can now screw the two ankle frames onto the Foot Top. The parts need to be l
 
 The ankle frames are not perfectly straight. Instead one of the vertical faces has a draft that is supposed to be oriented towards the exterior of the foot (that is towards the front for the frame that is connected in the front and towards the back for the frame that is connected on the back). Use 3 M2 screws to fix the front ankle and 3 M2 screws to fix the back ankle frame.
 
-![foot with both ankles](ass-leg4b.jpg)
+![foot with both ankles](imgs/ass-leg4b.png)
 
 ### Step 5
 
 Now place the FSR circuit board on the Foot Sole. The board should be a close fit and should sit on the margin that is specifically cut into the sole. The bumpers of from the FSR resistors should come out very slightly through the 4 large holes in the sole and the back of the circuit board should be flush with the rest of the sole on the upper side.
 
-![foot sole with the PCB installed](ass-leg5a)
+![foot sole with the PCB installed](imgs/ass-leg5a.png)
 
-Using 4 M2 screws assemble the Foot Top and then Foot Sole producing the lower part of the foot. The finalized left foot will look like this:
+Using 4 M2 screws assemble the Foot Top and then Foot Sole producing the lower part of the foot.
 
-![left foot image](ass-leg5b)
+![foot assembly](imgs/ass-leg5b.png)
+
+The finalized left foot will look like this:
+
+![left foot image](imgs/ass-leg5c.png)
 
 And the right foot will be like this:
 
-![right foot  image](ass-leg5c)
+![right foot  image](imgs/ass-leg5d.png)
 
 ### Step 6
 
