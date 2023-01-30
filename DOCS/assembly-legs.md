@@ -90,29 +90,25 @@ And the right foot will be like this:
 
 ### Step 6
 
-We will now mount the angle servo. For left leg use the servo with IDs 11 and 12, for right leg use the servo with IDs 21 and 22.
+We will no assemble the main foot parts. The following steps are similar for left and right foot, the only difference are the servos used. We will refer to these servos by their IDs indicating both left/right codes  as 11/21.
 
-Follow the instructions about [installing cables through the idle](https://emanual.robotis.com/docs/en/dxl/x/2xl430-w250/#idler-horn-assembly) and install a 100mm cable on the side with the horn A for ID 11 (or 21 for the other leg) and an 180mm cable on the side with the horn B for ID 12 (or 22 for the right leg). Double check that both active horns are in the 0 position.
+Use the dual servo for the knee with IDs 13/23 and 14/24. Take one Straight U frame [MH5-F02](../STL/MH5-F02.stl) and assemble it using 4 M2 screws onto the active horn A (13/23). Make sure that the horn is at 0 position and that in this position the F02 frame is perpendicular to the servo:
 
-Now place the servo between the ankle frames with the active horn of ID 11 (21 for right leg) towards the front (you should see Dynamixel A towards towards the front of the foot) and the 100mm cable coming from the idle towards the back.
+![knee with F02](imgs/ass-leg6.png)
 
-Use 5 M2 screws to fix the front (active horn) and then anther 5 screws to fix the idler on the back ankle.
-
-![lower servo mounted on foot](ass-leg6)
+Install a 180mm cable [through the idle](https://emanual.robotis.com/docs/en/dxl/x/2xl430-w250/#idler-horn-assembly) for the axis B labeled with ID 14/24.
 
 ### Step 7
 
-Take servo with IDs 13 and 14 (23 and 24 for right leg) and install a 180mm cable through the idle for the axis B labeled with ID 14 (24 for right leg).
+We will now mount the ankle servo IDs 11/21 and 12/22.
 
-Take one Straight U frame [MH5-F02](../STL/MH5-F02.stl) and assemble it using 4 M2 screws onto the active horn A (ID 13 for left leg, ID 23 for right leg). Make sure that the horn is at 0 position and that in this position the F02 frame is perpendicular to the servo:
+Follow the instructions about [installing cables through the idle](https://emanual.robotis.com/docs/en/dxl/x/2xl430-w250/#idler-horn-assembly) and install a 100mm cable on the side with the horn A for ID 11/21 and an 180mm cable on the side with the horn B for ID 12/22. Double check that both active horns are in the 0 position.
 
-![knee with F02](ass-leg7)
+Place the frame F2 mounted earlier over axis B of this new servo. The second axis of the knee servo (ID 14/24) should be towards the back. Use 5 screws to connect the F02 frame to the active horn of the axis B of the ankle and 5 more to connect the idle on the other side.
+
+![ankle and knee servos connected](imgs/ass-leg7.png)
 
 ### Step 8
-
-Double-check that the horn B of the ankle servo (the one that is still not connected) is in 0 position and place the frame F2 mounted earlier over these axis. The second axis of the knee servo should be towards the back. Use 5 screws to connect the F02 frame to the active horn of the axis B of the ankle and 5 more to connect the idle on the other side.
-
-![ankle and knee servos connected](ass-leg8a)
 
 Slide the 180mm cable from the ankle through the lateral holes in the F02 on one side, then get the cable out on the other side of the frame. Connect it to the free connector on the knee servo.
 
@@ -122,31 +118,45 @@ Slide the 180mm cable from the ankle through the lateral holes in the F02 on one
 
 Make sure that the horn for axis B of the knee servo is in position 0. We will mount the frame [F05](../STL/MH5-F05.stl) onto this axis. You will need to pay attention to the orientation as this is one of the frames that needs to be mounted in an offset position.
 
-Place the thigh frame (F05) as shown in the bellow image. Pay attention on the position of the active horn relative to the frame. The B axis of the knee servo should show one indentation line on the edge of the horn on the upper side of the servo (right as the servo is oriented in the picture bellow. That is the indicator that the horn is at 0 posiition. Use 5 M2 screws to fasten the frame in position, then another 5 on the other side to fasten the idle horn.
+Place the thigh frame (F05) as shown in the bellow image. Pay attention on the position of the active horn relative to the frame. The B axis of the knee servo should show one indentation line on the edge of the horn on the upper side of the servo. That is the indicator that the horn is at 0 position. Use 5 M2 screws to fasten the frame in position, then another 5 on the other side to fasten the idle horn.
 
-![Thigh assembly](imgs/ass-leg9a.jpg)
+![Thigh assembly](imgs/ass-leg9a.png)
 
 Once the frame is secured in place, rotate the horn by gently turning it anti-clockwise (in the above picture) so that the thigh is oriented vertically above the rest of the leg.
 
-![Thigh positioned](imgs/ass-leg9b.jpg)
+![Thigh positioned](imgs/ass-leg9b.png)
 
 ### Step 10
 
-Take the servo with IDs 15 and 16 (25 and 26 for right leg) and use an 180mm cable through the idle of axis B. Then, route the cable from the idle of the knee servo through the idle of axis A. It might be a little tricky to do this and it will help if you place the whole assembled leg horizontally on the table.
-
-![Hip ervos calbes](ass-leg10a)
+This step requires a little more attention. You should take the cable from the knee servo that is connected through the idle of B axis (ID 14/24) and [wire it through the idle](https://emanual.robotis.com/docs/en/dxl/x/2xl430-w250/#idler-horn-assembly) of the A axis of the hip servo (IDs 15/25). You might choose to let the cable unconnected to the servo JST connector to allow for a tight adjustment of the cable later, but this is not mandatory.
 
 After the cables are in palace, mount the servo A axis on the thigh frame F05 so that the servo is is positioned vertically and the horn of B axis is towards the front. Secure the servo in place with 5 M2 screws on the horn side and 5 M2 screws on the idle side.
 
-![Hip servo connected](ass-leg10b)
+![Hip servo connected](imgs/ass-leg10.png)
 
-If necessary you can adjust the cable between the knee and hip by pulling some of the length through the horn idle to reduce the amount of cable that is on the side of the thigh frame.
+If necessary you can adjust the cable between the knee and hip by pulling some of the length through the horn idle to reduce the amount of cable that is on the side of the thigh frame. You can then cut the existing JST-EH connector so remove the extraneous lenght of cable and re-crimp a new connector.
+
+> **Warning**
+>
+> When trimming cables, **do not** cut all wires in one go! It will be very hard to identify the cables after that. Instead cut one cable at a time, remove the insulation with an appropriate cable stripper, crimp a new pin and place it in a new JST EH housing in the same position as the original. Then move to the next cable.
 
 Finally use a cable clip on the side of the thigh to keep the cable for interfering with the frame movements.
 
 ![Thigh cable](ass-leg10c)
 
-## Foot Review
+### Step 11
+
+You should repeat the steps 6-10 to assemble the other leg.
+
+Once both legs are assembled you can mount them on the previously assembled feet. Place the servo axis A (ID 11/21) on the ankle frames of the foot with the active horn towards the front of the foot and the 100mm cable coming from the idle towards the back.
+
+Use 5 M2 screws to fix the front (active horn) and then anther 5 screws to fix the idler on the back ankle.
+
+![lower servo mounted on foot](imgs/ass-leg11.png)
+
+The 100mm cable from the leg should be routed in the JST connector in the foot on the outside part of the leg.
+
+### Foot Review
 
 This concludes the construction of the legs. Once completed the two legs would look like this:
 
