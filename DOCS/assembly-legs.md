@@ -158,6 +158,16 @@ The 100mm cable from the leg should be routed in the JST connector in the foot o
 
 ### Foot Review
 
-This concludes the construction of the legs. Once completed the two legs would look like this:
+This concludes the construction of the legs. The following figures reflect the fully assembled legs.
 
-![Full legs)](ass-legs11)
+Front view:
+
+![Full legs)](imgs/ass-legFa.png)
+
+Side view:
+
+![Full legs)](imgs/ass-legFb.png)
+
+Back view:
+
+![Full legs)](imgs/ass-legFc.png)
