@@ -86,7 +86,7 @@ The board is ready to be inserted in the torso.
 
 ### Step 10
 
-Carefully place the assembled IO carrier board and the CM4 into the torso making sure that:
+Carefully place the assembled IO carrier board and the CM4 into the torso. You will have to position the board at an angle with the USB connectors (and the WiFi) tilted first in, insert the WiFi into the hole in the torso and then let the board slide in and down. Make sure that:
 
 * the fan cable is routed under the carrier board and then over the board between the USB and HDMI connector
 * the WiFi dongle is aligned with the lower cutout in the top of the torso and slides inside the neck
@@ -94,6 +94,8 @@ Carefully place the assembled IO carrier board and the CM4 into the torso making
 * the 6mm standoffs are aligned with the holes in the back of the torso
 
 ![torso-electronics](imgs/ass-torso10.png)
+
+![torso-notch-detail](imgs/ass-torso10b.png)
 
 Once the carrier board is secured in place connect the fan to the connector on the IO board. The fan operates 12V and connector on the carrier board only supplies 5V. Because of this the power pin (red) of the fan is separately connected to a JST EH 3 pin connector that will be connected separately on the HAT board.
 
