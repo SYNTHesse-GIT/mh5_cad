@@ -107,4 +107,8 @@ You can now place the MH5-HAT over the carrier board. This should be fixed with 
 
 ![torso-final](imgs/ass-torso11.png)
 
+The HAT board has 6 Dynamixel connectors on the side (JST EH 3 pin) grouped in 2 sets of 3: the top 3 are for connecting the upper part of the body (head and arms) while the lower 3 are for the legs and to power the fan. At this moment you should have one Dynamixel cable coming through the neck for the head servo. Connect it to the topmost connector on the board. We will connect the cables from the arms later when the two pre-assembled arms are attached to the torso. Also you should take the red cable from the fan that is attached to a JST EH connector and connect it on the 4 connector from top (the first in the second set of 3 connectors). We will connect the cables from the legs once they are attached to the torso.
+
+If you installed the speakers connect the cables (JST PH 2 pin) to the two connectors on the lower side of the HAT board, one on the left and one on the right.
+
 This concludes the assembly of the torso. The final activities will be to assemble together the legs and arms onto the torso and complete the robot with the front frame and the back of the head frame. You can find these instructions in [here](assembly-full.md).
